@@ -1,9 +1,9 @@
-.kb_star header {
+ header {
     padding: 16px 16px 0 16px;
     height: 55px;
     width: 100%;
 }
-.kb_star .top {
+ .top {
     background-color: #fff;
     border: none;
     width: 3rem;
@@ -30,7 +30,7 @@
     width: 100%;
      
 }
-.kab_star .back img{
+.back img{
     width: 75%;
     /* height: 28%; */
     position: absolute;
@@ -331,7 +331,7 @@ section .sub_title span {
 .section1 .row3 .sub_title{
     color: #ffcc00;
 }
-.section1 .row3 .con,section1 .row3 .con2{
+.section1 .row3 .con,.section1 .row3 .con2{
     padding: 20px;
     background-image: linear-gradient(
     90deg,
