@@ -1,0 +1,36 @@
+html {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 16px;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+a{ 
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+.fs_1{font-size: 3rem;} /*48*/
+.fs_2{font-size: 2.5rem;}/*40*/
+.fs_3{font-size: 2rem;}/*32*/
+.fs_4{font-size: 1rem;}/*16*/
+.fs_5{font-size: 0.875rem;}/*14*/
+.fs_6{font-size: 0.75rem;}/*12*/
+.fs_7{font-size: 0.625rem;}/*10*/
+
+
+/* mobile : text사이 : 16px/ section사이 : padding-bootom:30px, margin-top:30px */
+/* pc : text사이 -> main-text :32px/ main-text:60px
+/ section 사이 padding-bottom:130*, margin-top:130px*/
+.fw_1 {font-weight: 400;}
+.fw_2 {font-weight: 500;}
+.fw_3 {font-weight: 700;}

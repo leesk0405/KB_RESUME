@@ -1,0 +1,256 @@
+@media all and (min-width:1200px){
+  html {
+    font-size: 20px;
+  }
+  
+  .back img{
+    width: 70%;
+    /* height: 28%; */
+    position: absolute;
+    right:0;
+    z-index: -1;
+  }
+  .banner,
+  .section1,
+  .section2,
+  .section3 {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+  }
+  section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .banner .title {
+    position: relative;
+    top:100px;
+
+  }
+  .banner .title h2 ,.kb_star .banner .title h2{
+    font-size: 3.3rem/*60px*/;
+    font-weight: 900;
+    line-height: 1;
+  }
+  .banner .title p, .kb_star .banner .title p {
+    font-size: 1.25rem;
+    padding-top: 4px;
+  }
+  .banner .con ,.kb_star .banner .con {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .banner .con  .moc {
+  }
+  .banner .con  .moc .pic, .kb_star .banner .con  .moc .pic{
+    width: 680px;
+    /* margin: 0 auto; */
+    margin-left:auto ;
+    margin-right:0;
+  }
+  .banner .con .sub {
+    align-self: flex-end;
+    margin-bottom: 80px;
+  }
+  .banner .con .sub .web,  .kb_star .banner .con .sub .web {
+    border-radius: 60px;
+  }
+  .kb_star .web {
+    margin: 60px auto;
+    width: 500px;
+  }
+  .web  {
+    margin: 0 auto;
+    width: 500px;
+  }
+  section .main_title {
+    margin-bottom: 44px;
+}
+/* main_title */
+.section1 .sub_title {
+    padding-bottom: 32px;
+}
+/* sub_title */
+  .section1{
+  }
+  .section1 .row1 {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 130px;
+   padding-bottom: 130px;
+  }
+  .section1 .row1 .con {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section1 .row1 .con .item{
+    /* width: calc((100% - 300px)/2); */
+  }
+  .section1 .row1 .con  .box{width: calc((100% - 200px) * 0.45);}
+  .section1 .row1 .con  .txt{width: calc((100% - 200px) * 0.55);}
+
+  .section1 .row2 .con, .section1 .row3 .con{
+    padding: 20px;
+    /* background-color: #eee; */
+    border-radius: 8px;
+    margin-bottom: 16px;
+    list-style: disc;
+    display: flex;
+    /* list-style: disc; */
+}
+.section1 .row3 .con {
+  
+}
+
+.section1 .row2 .con li, .section1 .row3 .con li{
+  width: auto;
+  }
+
+  .section1 .row2 .con2 p, .section1 .row3 .con2 p {
+    text-align: center;
+  }
+  .section1 .row3 .con2 p span{
+    font-size: 1.125rem;
+  }
+  /* section1 */
+  .section2{
+  }
+  .section2 .con {}
+  .section2 .con .item {}
+  .section2 .con .item .item_inner {
+    display: flex;
+    justify-content: space-between;
+  }/*여기 pc에서 display*/
+  .section2 .con .item .item_inner .box01 {}
+  .section2 .con .item .item_inner .box01 .cell{}
+  .section2 .con .item .item_inner .box01 .cell>div {
+  }
+  .section2 .con .item .sub_title{
+    color: #333;
+  }
+  .section2 .con .gap {
+      margin-bottom: 2.5rem;
+  }
+  .section2 .con .item .item_inner .box01 .cell>div h4{}
+  .section2 .con .item .item_inner .box01 .cell>div div{}
+  .section2 .con .item .item_inner .box01 .cell>div .logo_image{
+      width: 140px;
+  }
+  .section2 .con .item .item_inner .box01 .cell>div .logo_image img {
+    width: 100%;
+  }
+  .section2 .con .item .item_inner .box01 .cell>div .icons{}
+  .section2 .con .item .item_inner .box01 .cell>div .graphic{}
+  .kb_star .section2 .con .item .item_inner .box01 .cell>div .graphic img {
+    width: 60%;
+  }
+  .section2 .con .item .item_inner .box01 .cell>div div img{} 
+  .section2 .con .item .box01 img{
+      width: 84%;
+  } 
+  .section2 .con .item .box02 {}
+  .section2 .con .item .box02 .cell{
+  }
+  .section2 .con .item .box02 .cell h4{}
+  .section2 .con .item .box02 .cell .color_sys{
+      width: 200px;
+  }
+  .section2 .con .item .box02 .cell .color_sys img{}
+
+  .section2 .con .item {}
+.section2 .con .item h4{}
+.section2 .con .item .tit{
+    margin-bottom: 16px;
+}
+.section2 .con .item .obj{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 32px; */
+}
+.section2 .con .item .obj .unit{
+  width: calc(50% - 16px);
+}
+.section2 .con .item .obj .unit ul li {
+}
+.section2 .con .item .obj .unit>ul:first-child {
+
+}
+.section2 .con .item .obj .unit>ul{
+    padding: 12px;
+}
+.section2 .con .item .obj .unit>ul li{}
+.section2 .con .item .obj .unit>ul li .set{
+    display: flex;
+}
+.section2 .con .item .obj .unit>ul li .set li:not(:first-child){
+    margin-left: 16px;
+}
+/* section2 */
+
+.background {
+  background-color: #fde9e2;
+}
+.kb_star .background {
+  background-color: #fffae5;
+ 
+}
+.section3 {
+  
+}
+.section3 h2 {
+  padding-top: 30px;
+}
+.section3 h2 span {
+  background-image: linear-gradient(
+      rgba(0 0 0 / 0) 70%,
+      #fff6f6 70%
+  );
+}
+.section3 .col {
+}
+
+.section3 .col .row ,.kb_star .section3 .col .row {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+margin-bottom: 6rem;
+}
+.section3 .col .row:nth-child(2n), .kb_star .section3 .col .row:nth-child(2n){
+  flex-direction: row-reverse;
+}
+.section3 .col .row:nth-child(4) .pic img{
+  border-radius: 90px 0 90px 0;
+  box-shadow: 0 0 12px rgba(106, 106, 106, 0.1);
+}
+.section3 .col .row:not(:last-child):after, .kb_star .section3 .col .row:not(:last-child):after {
+content: none;
+/* display: block;
+width: 100%;
+height: 1px;
+background-color: #ddd;
+margin-top:10%; */
+}
+.section3 .col .row .pic, .kb_star .section3 .col .row .pic {
+  width: calc((100% - 40px) / 2);
+vertical-align: top;
+}
+.section3 .col .row .pic img ,.kb_star .section3 .col .row .pic img {
+width: 100%;
+}
+.section3 .col .row .info, .kb_star .section3 .col .row .info {
+  width: calc((100% - 40px) / 2);
+}
+.section3 .col .row .info h4,.kb_star .section3 .col .row .info h4 {
+padding-bottom: 0.75rem;/*12*/
+}
+.section3 .col .row .info .box , .kb_star .section3 .col .row .info .box {
+/* background-color: #fde9e2; */
+background-color: #fff;
+padding: 1rem;
+border-radius: 8px;
+}
+  
+
+}/*pc 끝 */
