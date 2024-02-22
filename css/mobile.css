@@ -454,6 +454,12 @@ section .sub_title span {
 }
 .section3 .col {
 }
+.section3 .main_title span {
+    background-image: linear-gradient(
+        rgba(0 0 0 / 0) 70%,
+        #fff 70%
+    );
+}
 
 .section3 .col .row{
     display: flex;
