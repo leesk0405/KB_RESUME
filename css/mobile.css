@@ -411,6 +411,12 @@ section .sub_title span {
 .section2 .con .item .box02 .cell .color_sys img{}
 
 .section2 .con .item {}
+.section2 .con .sys03 {
+    font-family: "Wanted Sans Variable";
+}
+.section2 .con .sys03 .sub_title {
+    font-family: "Pretendard";
+}
 .section2 .con .item h4{}
 .section2 .con .item .tit{
     font-size:1.5rem ;
