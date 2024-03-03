@@ -90,24 +90,22 @@
     padding: 20px;
     /* background-color: #eee; */
     border-radius: 8px;
-    margin-bottom: 16px;
-    list-style: disc;
+    margin-bottom: 16px;;
     display: flex;
     /* list-style: disc; */
 }
-.section1 .row3 .con {
-  
-}
-
 .section1 .row2 .con li, .section1 .row3 .con li{
   width: auto;
+  text-align: center;
   }
 
   .section1 .row2 .con2 p, .section1 .row3 .con2 p {
     text-align: center;
+    
+    
   }
-  .section1 .row3 .con2 p span{
-    font-size: 1.125rem;
+  .section1 .row3 .con2 p{
+    font-weight: 700;
   }
   /* section1 */
   .section2{
