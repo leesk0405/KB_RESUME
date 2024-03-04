@@ -208,6 +208,7 @@ align-items: center;
 justify-content: space-between;
 flex-direction: row;
 margin-bottom: 6rem;
+
 }
 .section3 .col .row:nth-child(2n){
   flex-direction: row-reverse;
@@ -242,6 +243,10 @@ padding-bottom: 0.75rem;/*12*/
 background-color: #fff;
 padding: 1rem;
 border-radius: 8px;
+
+}
+.section3 .col .row .info .box p {
+  line-height: 1.5;
 }
 .site {
   padding: 100px 0;
